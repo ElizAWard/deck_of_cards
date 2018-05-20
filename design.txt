@@ -1,0 +1,25 @@
+Design doc for deck of cards
+
+Class Card
+- has enum suit
+- has int value
+- has toString
+
+Class Deck
+- has 52 cards
+- loads up all cards in order first
+- has shuffle function
+-- for int i 0 - 51, call swap on card at i, with card at random index
+- deal takes in list of players and number to deal to each player
+
+Class Player
+- has hand, list of Cards
+- draw Card
+- discard Card
+
+Enum Suit
+{HEARTS, SPADES, DIAMONDS, CLUBS}
+for(i = HEARTS; i <= CLUBS; i++)
+{
+    ...
+}
